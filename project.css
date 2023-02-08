@@ -26,6 +26,7 @@
   width: 100%;
   height: 65vh;
   background-color: black;
+  overflow-y: hidden;
 }
 
 .gallery-proj {
@@ -33,5 +34,28 @@
   top: 100vh;
   width: 100%;
   height: 200vh;
-  background-color: green;
+  background-color: grey;
+}
+
+.credit {
+  text-align: right;
+}
+
+.linea-proj {
+  column-gap: 0.8vw;
+  padding: 0.8vw;
+  padding-bottom: 0;
+}
+
+.img-proj {
+  border-radius: 10px;
+  /* background-color: black; */
+  height: 31vw;
+}
+
+.vimeo-proj {
+  position: relative;
+  transform-origin: middle;
+  height: 100%;
+  top: 0%;
 }

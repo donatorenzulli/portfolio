@@ -113,6 +113,10 @@ a {
   color: aliceblue;
 }
 
+.linkheader {
+  color: black;
+}
+
 a:link {
   text-decoration: none;
 }
