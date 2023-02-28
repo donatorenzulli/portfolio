@@ -37,7 +37,7 @@
   text-align: right;
 }
 
-.video {
+.video-homepage {
   position: absolute;
   background-color: black;
   top: 20vh;
@@ -49,8 +49,9 @@
   position: absolute;
   top: 100vh;
   margin-top: 0;
-  height: 100vh;
+  height: auto;
   width: 100vw;
+  padding-bottom: 0.8vw;
 }
 
 /* schede progetti */
