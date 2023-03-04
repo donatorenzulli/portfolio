@@ -11,13 +11,19 @@
   color: black;
 }
 
+/* classe creata per centrare il video al centro */
+.proj {
+  display: flex;
+  justify-content: center;
+}
+
 .proj-scheda {
-  color: #ffffff;
+  color: #000000;
   position: fixed;
   top: 5vh;
   padding-top: 2vh;
-  height: 33vh;
-  background-color: #bbbbbb;
+  height: 30vh;
+  background-color: #dddddd;
   z-index: 2;
   overflow-y: scroll;
 }
@@ -34,8 +40,7 @@
   background-color: black;
   display: flex;
   align-items: center;
-  align-content: center;
-  overflow-y: hidden;
+  justify-content: center;
 }
 
 .gallery-proj {
@@ -72,7 +77,6 @@
 
 .img-proj {
   border-radius: 10px;
-  /* background-color: aqua; */
   height: 31vw;
   display: flex;
   align-items: center;
@@ -80,8 +84,21 @@
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
-  background-size: 100% auto;
+  object-fit: cover;
+  background-size: auto 110%;
+}
+
+.img-proj-vert {
+  border-radius: 10px;
+  height: 31vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
   object-fit: fill;
+  background-size: 100% auto;
 }
 
 .img-proj-scheda {
@@ -90,4 +107,16 @@
   margin-right: auto;
   margin-top: 2vh;
   height: 90%;
+}
+
+.video-proj-scheda {
+  position: relative;
+  width: 40vw;
+}
+
+#videoMq {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 100%;
 }
