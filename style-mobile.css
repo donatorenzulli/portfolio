@@ -1,0 +1,134 @@
+@font-face {
+  font-family: suisse-intl;
+  src: url(assets/font/SuisseIntl-Regular.otf);
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    font-family: suisse-intl;
+    padding-top: 0.7vw;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    height: 50vh;
+    font-size: 3.3vw;
+    background-color: #ff0c0f;
+    color: white;
+  }
+
+  .nome {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+
+  .info {
+    font-size: 2vw;
+    line-height: 100%;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .right {
+    text-align: right;
+  }
+
+  .video-homepage {
+    position: absolute;
+    background-color: black;
+    top: 50vh;
+    height: 50vh;
+    width: 100vw;
+  }
+
+  .project {
+    position: absolute;
+    top: 100vh;
+    margin-top: 0;
+    height: auto;
+    width: 100vw;
+    padding-bottom: 0.8vw;
+  }
+
+  /* schede progetti */
+
+  .linea {
+    margin-top: 0vw;
+    padding: 0.8vw;
+    padding-bottom: 0vw;
+    margin-bottom: 0vw;
+    column-gap: 0.8vw;
+  }
+
+  .proj {
+    border-radius: 20px;
+    padding: 0.8vw;
+    margin: 0;
+    display: flex;
+    column-gap: 2vw;
+    position: relative;
+    /* background-color: aquamarine; */
+    height: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .infogen {
+    position: relative;
+    height: 100%;
+  }
+
+  .proj-title {
+    font-size: 2vw;
+    position: absolute;
+    display: flex;
+    top: 2vh;
+  }
+
+  .proj-info {
+    position: absolute;
+    display: flex;
+    bottom: 2vh;
+    width: 100%;
+    align-self: flex-end;
+  }
+
+  .proj-video {
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    height: 100vw;
+  }
+
+  /* Link */
+
+  a {
+    color: white;
+  }
+
+  .linkheader {
+    color: black;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  a:active {
+    text-decoration: none;
+  }
+}

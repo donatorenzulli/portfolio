@@ -26,6 +26,7 @@
   background-color: #dddddd;
   z-index: 2;
   overflow-y: scroll;
+  line-height: 100%;
 }
 
 .proj-scheda::-webkit-scrollbar {

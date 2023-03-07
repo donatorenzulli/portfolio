@@ -9,14 +9,14 @@
 
 .header {
   font-family: suisse-intl;
-  padding-top: 0.8vw;
+  padding-top: 0.7vw;
   position: fixed;
   z-index: 2;
   top: 0;
   height: 20vh;
-  font-size: 1.7vw;
+  font-size: 2.2vw;
   background-color: #ff0c0f;
-  color: black;
+  color: white;
 }
 
 .nome {
@@ -26,14 +26,15 @@
 }
 
 .info {
-  font-size: 0.7vw;
+  font-size: 1vw;
+  line-height: 100%;
 }
 
-.red {
+.center {
   text-align: center;
 }
 
-.green {
+.right {
   text-align: right;
 }
 
@@ -111,7 +112,7 @@
 /* Link */
 
 a {
-  color: aliceblue;
+  color: white;
 }
 
 .linkheader {
