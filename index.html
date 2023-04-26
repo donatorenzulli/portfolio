@@ -11,8 +11,17 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./style-mobile.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 600px)"
+      href="./style.css"
+    />
+
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 600px)"
+      href="./style-mobile.css"
+    />
 
     <title>Donato Renzulli</title>
   </head>
@@ -22,9 +31,9 @@
     <div class="container-fluid header">
       <div class="row info">
         <div class="col left">
-          Communication designer <br />
-          Into visual and new media design <br />
-          Now in Helsinki
+          Visual and interaction designer <br />
+          Curious about new media <br />
+          Currently studying in Helsinki
         </div>
 
         <div class="col right">
@@ -48,7 +57,16 @@
 
     <!-- FIRST VIDEO -->
 
-    <div class="container-fluid video-homepage"></div>
+    <div class="container-fluid video-homepage">
+      <video
+        src="assets/images/common/don.mp4"
+        class="video-introhome"
+        autoplay
+        playsinline
+        loop
+        muted
+      ></video>
+    </div>
 
     <!-- GALLERY PROJECTS -->
 
@@ -144,7 +162,7 @@
 
         <!-- seconda riga  -->
         <div class="row linea">
-          <div class="col-sm proj">
+          <div class="col-sm-5 proj">
             <a href="donatospizza.html">
               <div>
                 <video
@@ -202,8 +220,8 @@
 
         <!-- terza riga  -->
         <div class="row linea">
-          <div class="col proj">
-            <a href="tod.html">
+          <div class="col-sm-6 proj">
+            <a href="bum.html">
               <div>
                 <video
                   class="proj-video"
@@ -218,7 +236,7 @@
               </div>
 
               <div class="col infogen">
-                <h1>BUM</h1>
+                <h1>BUM | La Marittima</h1>
 
                 <p>
                   Visual performance <br />
@@ -329,8 +347,8 @@
                 <h1>GenerAct</h1>
 
                 <p>
-                  Design for events <br />
-                  2021
+                  Visual design <br />
+                  2021 - on going
                 </p>
               </div>
             </a>

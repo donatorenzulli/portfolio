@@ -7,9 +7,13 @@
   font-family: suisse-intl;
 }
 
+.body::-webkit-scrollbar {
+  display: none;
+}
+
 .header {
   font-family: suisse-intl;
-  padding-top: 0.7vw;
+  padding: 0.8vw;
   position: fixed;
   z-index: 2;
   top: 0;
@@ -41,18 +45,34 @@
 .video-homepage {
   position: absolute;
   background-color: black;
-  top: 20vh;
-  height: 80vh;
+  margin-top: 20vh;
   width: 100vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.video-introhome {
+  position: relative;
+  width: 100%;
 }
 
 .project {
   position: absolute;
   top: 100vh;
   margin-top: 0;
+
+  padding: 0.8 vw;
   height: auto;
-  width: 100vw;
+  width: 100%;
   padding-bottom: 0.8vw;
+  overflow-x: hidden;
+}
+
+.project::-webkit-scrollbar {
+  display: none;
 }
 
 /* schede progetti */
@@ -66,7 +86,7 @@
 }
 
 .proj {
-  border-radius: 20px;
+  border-radius: 0px;
   padding: 0.8vw;
   margin: 0;
   display: flex;
@@ -100,7 +120,7 @@
 }
 
 .proj-video {
-  border-radius: 10px;
+  border-radius: 4px;
   position: absolute;
   top: 0;
   left: 0;

@@ -115,9 +115,29 @@
   width: 40vw;
 }
 
+.video-proj-scheda-full {
+  position: relative;
+  width: 100vw;
+}
+
 #videoMq {
   position: relative;
   display: flex;
   justify-content: center;
   height: 100%;
+}
+
+.about-scheda {
+  color: #000000;
+  position: fixed;
+  top: 5vh;
+  padding-top: 2vh;
+  background-color: #ffffff;
+  z-index: 2;
+  line-height: 100%;
+}
+
+.about-photo {
+  background-color: aqua;
+  height: 100vh;
 }
