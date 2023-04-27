@@ -5,6 +5,7 @@
 
 .body {
   font-family: suisse-intl;
+  overflow-y: scroll;
 }
 
 .body::-webkit-scrollbar {
@@ -43,12 +44,11 @@
 }
 
 .video-homepage {
-  position: absolute;
+  position: relative;
   background-color: black;
   margin-top: 20vh;
-  width: 100vw;
   height: 80vh;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   overflow: hidden;
@@ -60,10 +60,8 @@
 }
 
 .project {
-  position: absolute;
-  top: 100vh;
-  margin-top: 0;
-
+  position: relative;
+  margin-top: 20vh;
   padding: 0.8 vw;
   height: auto;
   width: 100%;
