@@ -2,24 +2,21 @@ let sizeTarget;
 let opacityLine = 80;
 let speed = 0.01;
 let width = 3000;
-let height = 1080;
-let inc = 3;
+let height = 1000;
+let inc = 1;
 let strokeline = 10;
-let variation;
-let variation2;
+let variation = 0.0009;
+let variation2 = 0.0009;
 
 function preload() {}
 
 function setup() {
   let c = createCanvas(width, height);
-  c.parent("provacanvas");
+  c.parent("canvasometimes");
 
   colorMode(HSB, 360, 100, 100, 100);
-  sizeTarget = random(width / 30, width / 2.5);
+  sizeTarget = random(width / 30, width / 5);
   rectMode(CENTER);
-
-  variation = random(0.0001, 0.0008);
-  variation2 = random(0.0001, 0.0008);
 }
 
 function draw() {

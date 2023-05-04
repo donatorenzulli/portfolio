@@ -7,23 +7,24 @@
   top: 0vh;
   height: 5vh;
   font-size: 1.7vw;
-  background-color: #ff0c0f;
-  color: black;
+  background-color: #ffffff;
+  color: #0000ff;
 }
 
 /* classe creata per centrare il video al centro */
 .proj {
   display: flex;
+
   justify-content: center;
 }
 
 .proj-scheda {
-  color: #000000;
+  color: #ffffff;
   position: fixed;
   top: 5vh;
   padding-top: 0.8vh;
-  height: 20vh;
-  background-color: #dddddd;
+  height: 20.2vh;
+  background-color: #0000ff;
   z-index: 2;
   overflow-y: scroll;
   line-height: 100%;
@@ -34,9 +35,9 @@
 }
 
 .showreel-proj {
-  position: absolute;
-  top: 25vh;
-  width: 100%;
+  position: relative;
+  margin-top: 25vh;
+  padding: 0;
   height: 75vh;
   background-color: black;
   display: flex;
@@ -48,7 +49,6 @@
   position: absolute;
   top: 100vh;
   width: 100%;
-  height: auto;
   padding-bottom: 0.8vw;
   background-color: black;
 }
@@ -61,13 +61,10 @@
   column-gap: 0.8vw;
   padding: 0.8vw;
   padding-bottom: 0;
-  overflow-y: scroll;
-  border: 1px solid gray;
-  scroll-snap-type: y mandatory;
 }
 
 .bg-video-proj {
-  border-radius: 10px;
+  border-radius: 0px;
   background-color: black;
   height: 31vw;
 }
@@ -80,7 +77,7 @@
 }
 
 .img-proj {
-  border-radius: 10px;
+  border-radius: 0px;
   height: 31vw;
   display: flex;
   align-items: center;
@@ -93,7 +90,7 @@
 }
 
 .img-proj-vert {
-  border-radius: 10px;
+  border-radius: 0px;
   height: 31vw;
   display: flex;
   align-items: center;
@@ -110,17 +107,22 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 2vh;
-  height: 90%;
+  width: 90%;
+  overflow-x: hidden;
 }
 
 .video-proj-scheda {
   position: relative;
-  width: 40vw;
+  width: 50vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .video-proj-scheda-full {
   position: relative;
+  height: max-content;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 #videoMq {
@@ -143,4 +145,47 @@
 .about-photo {
   background-color: aqua;
   height: 100vh;
+}
+
+/* Link */
+
+a {
+  color: #ffffff;
+}
+
+.linkheader {
+  color: #0000ff;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/* Frecce per andare ai proj successivi */
+.arrows {
+  font-size: 1vw;
+  position: fixed;
+  top: 50%;
+  filter: invert(1);
+}
+
+.arrows.right {
+  text-align: right;
+}
+
+/* Specific for sometimes it happens */
+#canvasometimes {
+  overflow: hidden;
 }
