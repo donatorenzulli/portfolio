@@ -14,7 +14,6 @@
 /* classe creata per centrare il video al centro */
 .proj {
   display: flex;
-
   justify-content: center;
 }
 
@@ -139,11 +138,14 @@
   padding-top: 2vh;
   background-color: #ffffff;
   z-index: 2;
+}
+
+.about-scheda-p {
+  font-size: 1.4vw;
   line-height: 100%;
 }
 
 .about-photo {
-  background-color: aqua;
   height: 100vh;
 }
 
@@ -178,11 +180,20 @@ a:active {
   font-size: 1vw;
   position: fixed;
   top: 50%;
-  filter: invert(1);
+  color: #0000ff;
 }
 
 .arrows.right {
   text-align: right;
+}
+
+.arrows.a {
+  color: #ffffff;
+}
+
+.arrows.a:visited {
+  background-color: #0000ff;
+  text-decoration: none;
 }
 
 /* Specific for sometimes it happens */

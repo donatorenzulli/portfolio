@@ -62,10 +62,10 @@
 .project {
   position: relative;
   margin-top: 20vh;
-  padding: 0.2vw;
+  padding: 0vw;
   height: auto;
   width: 100%;
-  padding-bottom: 0.2vw;
+  padding-bottom: 0vw;
   overflow-x: hidden;
 }
 
@@ -78,8 +78,8 @@
 .linea {
   padding: 0vw;
   margin: 0vw;
-  margin-bottom: 0.2vw;
-  column-gap: 0.2vw;
+  margin-bottom: 0vw;
+  column-gap: 0vw;
 }
 
 .proj {
