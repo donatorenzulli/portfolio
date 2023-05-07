@@ -1,0 +1,201 @@
+.header-sm {
+  font-family: suisse-intl;
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  align-items: flex-end;
+  top: 0vh;
+  height: 5vh;
+  font-size: 1.7vw;
+  background-color: #ffffff;
+  color: #0000ff;
+}
+
+/* classe creata per centrare il video al centro */
+.proj {
+  display: flex;
+  justify-content: center;
+}
+
+.proj-scheda {
+  color: #ffffff;
+  position: sticky;
+  top: 5vh;
+  padding-top: 0.8vh;
+  height: auto;
+  background-color: #0000ff;
+  z-index: 2;
+  overflow-y: scroll;
+  line-height: 100%;
+}
+
+.proj-scheda::-webkit-scrollbar {
+  display: none;
+}
+
+.showreel-proj {
+  position: relative;
+  padding: 0;
+  height: auto;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-proj {
+  position: relative;
+  margin-top: 0vh;
+  width: 100%;
+  padding-bottom: 0.8vw;
+  background-color: black;
+}
+
+.credit {
+  text-align: right;
+}
+
+.linea {
+  column-gap: 0.8vw;
+  padding: 0.8vw;
+  padding-bottom: 0;
+}
+
+.bg-video-proj {
+  border-radius: 0px;
+  background-color: black;
+  height: 100vw;
+}
+
+.vimeo-proj {
+  position: relative;
+  transform-origin: middle;
+  height: 100%;
+  top: 0%;
+}
+
+.img-proj {
+  border-radius: 0px;
+  height: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  object-fit: cover;
+  background-size: auto 110%;
+}
+
+.img-proj-vert {
+  border-radius: 0px;
+  height: 33vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  object-fit: fill;
+  background-size: 100%;
+}
+
+.img-proj-scheda {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vh;
+  width: 90%;
+  overflow-x: hidden;
+}
+
+.video-proj-scheda {
+  position: relative;
+  width: 50vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.video-proj-scheda-full {
+  position: relative;
+  height: max-content;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+#videoMq {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.about-scheda {
+  color: #000000;
+  position: fixed;
+  top: 5vh;
+  padding-top: 2vh;
+  background-color: #ffffff;
+  z-index: 2;
+}
+
+.about-scheda-p {
+  font-size: 1.4vw;
+  line-height: 100%;
+}
+
+.about-photo {
+  height: 100vh;
+}
+
+/* Link */
+
+a {
+  color: #ffffff;
+}
+
+.linkheader {
+  color: #0000ff;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/* Frecce per andare ai proj successivi */
+.arrows {
+  font-size: 1vw;
+  position: fixed;
+  top: 50%;
+  color: #0000ff;
+}
+
+.arrows.right {
+  text-align: right;
+}
+
+.arrows.a {
+  color: #ffffff;
+}
+
+.arrows.a:visited {
+  background-color: #0000ff;
+  text-decoration: none;
+}
+
+/* Specific for sometimes it happens */
+#canvasometimes {
+  overflow: hidden;
+}

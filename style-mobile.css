@@ -52,12 +52,12 @@
 }
 
 .video-homepage {
-  position: absolute;
+  position: relative;
   background-color: black;
+  display: none;
   margin-top: 20vh;
   width: 100vw;
   height: 80vh;
-  display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
@@ -69,9 +69,9 @@
 }
 
 .project {
-  position: absolute;
-  top: 100vh;
-  margin-top: 0;
+  position: relative;
+
+  margin-top: 20vh;
   padding: 2 vw;
   height: auto;
   width: 100vw;
@@ -83,7 +83,7 @@
 
 .linea {
   margin-top: 0vw;
-  padding: 0.8vw;
+  padding: 0vw;
   padding-bottom: 0vw;
   margin-bottom: 0vw;
   column-gap: 0.8vw;
@@ -92,7 +92,7 @@
 .proj {
   /* border-radius: 20px; */
   padding: 5vw;
-  margin-bottom: 0.8vw;
+  margin-bottom: 0vw;
   display: flex;
   column-gap: 2vw;
   position: relative;
