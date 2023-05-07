@@ -23,10 +23,11 @@
   top: 5vh;
   padding-top: 0.8vh;
   height: auto;
-  background-color: #0000ff;
+  background-color: transparent;
   z-index: 2;
   overflow-y: scroll;
   line-height: 100%;
+  mix-blend-mode: difference;
 }
 
 .proj-scheda::-webkit-scrollbar {
@@ -35,6 +36,7 @@
 
 .showreel-proj {
   position: relative;
+  margin-top: 10vh;
   padding: 0;
   height: auto;
   background-color: black;
