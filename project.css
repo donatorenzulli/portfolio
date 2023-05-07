@@ -65,7 +65,7 @@
 .bg-video-proj {
   border-radius: 0px;
   background-color: black;
-  height: 31vw;
+  height: 33vw;
 }
 
 .vimeo-proj {
@@ -77,7 +77,7 @@
 
 .img-proj {
   border-radius: 0px;
-  height: 31vw;
+  height: 33vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -90,7 +90,7 @@
 
 .img-proj-vert {
   border-radius: 0px;
-  height: 31vw;
+  height: 33vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -98,7 +98,7 @@
   background-position-x: center;
   background-position-y: center;
   object-fit: fill;
-  background-size: 100% auto;
+  background-size: 100%;
 }
 
 .img-proj-scheda {
