@@ -12,8 +12,29 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./project.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 600px)"
+      href="./style.css"
+    />
+
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 600px)"
+      href="./style-mobile.css"
+    />
+
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 600px)"
+      href="./project.css"
+    />
+
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 600px)"
+      href="./project-mobile.css"
+    />
 
     <title>Donato Renzulli | PASTACHUTE</title>
   </head>
@@ -21,17 +42,21 @@
     <!-- HEADER -->
     <div class="container-fluid header-sm">
       <div class="row nome">
-        <div class="col left">work</div>
+        <div class="col-3 left">
+          <a class="linkheader" href="index.html">work</a>
+        </div>
         <div class="col center">
           <a class="linkheader" href="index.html">Donato Renzulli </a>
         </div>
-        <div class="col right">about</div>
+        <div class="col-3 right">
+          <a class="linkheader" href="about.html">about</a>
+        </div>
       </div>
     </div>
 
     <div class="container-fluid proj-scheda">
       <div class="row">
-        <div class="col-7">
+        <div class="col-sm-7">
           <h1>PASTACHUTE</h1>
           <p>
             As harmless as it might look, pasta often ends up at the center of
@@ -54,14 +79,14 @@
           </p>
         </div>
 
-        <div class="col credit">
+        <div class="col-sm credit">
           <p>
             Creative Coding <br />
             2021
           </p>
         </div>
 
-        <div class="col credit">
+        <div class="col-sm credit">
           <p>
             with <br />
             Martina Bracchi
@@ -77,58 +102,46 @@
     </div>
 
     <div class="showreel-proj">
-      <div class="col proj">
-        <div>
-          <video
-            class="proj-video"
-            id="videoMq"
-            playsinline
-            autoplay
-            muted
-            loop
-          >
-            <source
-              src="assets/images/pastachute/video0.mp4"
-              type="video/mp4"
-            />
-          </video>
-        </div>
+      <div>
+        <video class="video-proj-scheda-full" playsinline autoplay muted loop>
+          <source src="assets/images/pastachute/video0.mp4" type="video/mp4" />
+        </video>
       </div>
     </div>
 
     <div class="container-fluid gallery-proj">
       <div class="row linea-proj">
         <div
-          class="col img-proj"
+          class="col-sm img-proj"
           style="background-image: url('assets/images/pastachute/dente.png')"
         ></div>
 
         <div
-          class="col img-proj"
+          class="col-sm img-proj"
           style="background-image: url('assets/images/pastachute/aiapl.gif')"
         ></div>
 
         <div
-          class="col img-proj"
+          class="col-sm img-proj"
           style="background-image: url('assets/images/pastachute/pin.png')"
         ></div>
       </div>
 
       <div class="row linea-proj">
         <div
-          class="col img-proj-vert"
+          class="col-sm img-proj-vert"
           style="background-image: url('assets/images/pastachute/pasta1.jpg')"
         ></div>
 
         <div
-          class="col img-proj-vert"
+          class="col-sm img-proj-vert"
           style="
             background-image: url('assets/images/pastachute/img2_pasta.jpg');
           "
         ></div>
 
         <div
-          class="col img-proj-vert"
+          class="col-sm img-proj-vert"
           style="
             background-image: url('assets/images/pastachute/img1_pasta.jpg');
           "
@@ -136,10 +149,10 @@
       </div>
 
       <div class="row linea-proj">
-        <div class="col proj">
+        <div class="col-sm proj">
           <div>
             <video
-              class="proj-video"
+              class="proj-video proj-video-oriz"
               id="video1"
               playsinline
               autoplay
@@ -154,10 +167,10 @@
           </div>
         </div>
 
-        <div class="col proj">
+        <div class="col-sm proj">
           <div>
             <video
-              class="proj-video"
+              class="proj-video proj-video-oriz"
               id="video1"
               playsinline
               autoplay

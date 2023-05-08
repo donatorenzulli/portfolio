@@ -11,53 +11,68 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link
+    rel="stylesheet"
+    media="screen and (min-width: 600px)"
+    href="./style.css"
+  />
 
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./project.css" />
+  <link
+    rel="stylesheet"
+    media="screen and (max-width: 600px)"
+    href="./style-mobile.css"
+  />
+
+  <link
+    rel="stylesheet"
+    media="screen and (min-width: 600px)"
+    href="./project.css"
+  />
+
+  <link
+    rel="stylesheet"
+    media="screen and (max-width: 600px)"
+    href="./project-mobile.css"
+  />
 
     <title>Donato Renzulli | CineTeatro Cicolella</title>
   </head>
   <body>
     <!-- HEADER -->
-
     <div class="container-fluid header-sm">
       <div class="row nome">
-        <div class="col left">work</div>
+        <div class="col-3 left">
+          <a class="linkheader" href="index.html">work</a>
+        </div>
         <div class="col center">
           <a class="linkheader" href="index.html">Donato Renzulli </a>
         </div>
-        <div class="col right">about</div>
+        <div class="col-3 right">
+          <a class="linkheader" href="about.html">about</a>
+        </div>
       </div>
     </div>
 
     <div class="container-fluid proj-scheda">
       <div class="row">
-        <div class="col-7">
+        <div class="col-sm-7">
           <h1>CineTeatro Cicolella</h1>
           <p>
-            Donato’s Pizza is a short film of 3D animation made with Blender.
-            The goal was to represent the passions of the members of the group
-            through the three protagonists of the story: music (Donato), dance
-            (Caterina) and computer science (Manuel). A unique pizzeria is
-            represented in which, through ironic episodes and break-dance moves,
-            a pizza is prepared for an important delivery order. All 3d models
-            and animations were made by the members of the group. A soundtrack
-            has also been created with AbletonLive, a fundamental element for
-            the final video editing.
+            Since the beginning of 2023 with the association GenerAct we are revalorising an old cine-theatre in the city of Foggia (Apulia, Italy). The actions include musical events, photographic and art exhibitions and theatre performances. I am working on the visual identity of the theatre, based on animations generated with p5.js. 
             <br>
             <br>
             <p> <a href="https://www.instagram.com/cineteatrocicolella/" target=”_blank”> >>> Explore the project </a></p>
           </p>
         </div>
 
-        <div class="col credit">
+        <div class="col-sm credit">
           <p>
             Visual design <br />
-            2022 - on going
+            2023
           </p>
         </div>
 
-        <div class="col credit"></div>
+        <div class="col-sm credit"></div>
       </div>
     </div>
 
@@ -76,7 +91,7 @@
           style="background-image: url('assets/images/generact/cicolella1.jpg')"
         ></div>
 
-        <div class="col proj">
+        <div class="col-sm proj">
           <div>
             <video
               class="proj-video"
@@ -92,13 +107,13 @@
         </div>
 
         <div
-          class="col img-proj-vert"
+          class="col-sm img-proj-vert"
           style="background-image: url('assets/images/generact/cicolella3.jpg')"
         ></div>
       </div>
 
       <div class="row linea-proj">
-        <div class="col proj">
+        <div class="col-sm proj">
           <div>
             <video
               class="proj-video"
@@ -114,7 +129,7 @@
         </div>
 
         <div
-          class="col img-proj-vert"
+          class="col-sm img-proj-vert"
           style="background-image: url('assets/images/generact/cicolella2.jpg')"
         ></div>
 

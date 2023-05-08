@@ -13,21 +13,45 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./project.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 600px)"
+      href="./style.css"
+    />
+
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 600px)"
+      href="./style-mobile.css"
+    />
+
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 600px)"
+      href="./project.css"
+    />
+
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 600px)"
+      href="./project-mobile.css"
+    />
 
     <title>Donato Renzulli | Sometimes it happens</title>
   </head>
   <body>
     <!-- HEADER -->
-
     <div class="container-fluid header-sm">
       <div class="row nome">
-        <div class="col left">work</div>
+        <div class="col-3 left">
+          <a class="linkheader" href="index.html">work</a>
+        </div>
         <div class="col center">
           <a class="linkheader" href="index.html">Donato Renzulli </a>
         </div>
-        <div class="col right">about</div>
+        <div class="col-3 right">
+          <a class="linkheader" href="about.html">about</a>
+        </div>
       </div>
     </div>
 
@@ -109,17 +133,17 @@
 
       <div class="row linea-proj">
         <div
-          class="col img-proj-vert"
+          class="col-sm img-proj-vert"
           style="background-image: url('assets/images/sometimes/som-1.jpg')"
         ></div>
 
         <div
-          class="col img-proj"
+          class="col-sm img-proj"
           style="background-image: url('assets/images/sometimes/som-3.jpg')"
         ></div>
 
         <div
-          class="col img-proj"
+          class="col-sm img-proj"
           style="background-image: url('assets/images/sometimes/som-2.jpg')"
         ></div>
       </div>

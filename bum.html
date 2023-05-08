@@ -11,22 +11,45 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 600px)"
+      href="./style.css"
+    />
 
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./project.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 600px)"
+      href="./style-mobile.css"
+    />
+
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 600px)"
+      href="./project.css"
+    />
+
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 600px)"
+      href="./project-mobile.css"
+    />
 
     <title>Donato Renzulli | BUM</title>
   </head>
   <body>
     <!-- HEADER -->
-
     <div class="container-fluid header-sm">
       <div class="row nome">
-        <div class="col left">work</div>
+        <div class="col-3 left">
+          <a class="linkheader" href="index.html">work</a>
+        </div>
         <div class="col center">
           <a class="linkheader" href="index.html">Donato Renzulli </a>
         </div>
-        <div class="col right">about</div>
+        <div class="col-3 right">
+          <a class="linkheader" href="about.html">about</a>
+        </div>
       </div>
     </div>
 
@@ -34,7 +57,7 @@
 
     <div class="container-fluid proj-scheda">
       <div class="row">
-        <div class="col-7">
+        <div class="col-sm-7">
           <h1>BUM | La Marittima</h1>
           <p>
             BUM was a unique project in which 3D photogrammetry and film footage
@@ -55,14 +78,14 @@
           </p>
         </div>
 
-        <div class="col credit">
+        <div class="col-sm credit">
           <p>
             Vj performance <br />
             2022
           </p>
         </div>
 
-        <div class="col credit">
+        <div class="col-sm credit">
           <p>
             with <br />
             Giuseppe Defilippis
@@ -89,7 +112,7 @@
 
     <div class="container-fluid gallery-proj">
       <div class="row linea-proj">
-        <div class="col proj">
+        <div class="col-sm proj">
           <div>
             <video
               class="proj-video"
@@ -104,7 +127,7 @@
           </div>
         </div>
 
-        <div class="col proj">
+        <div class="col-sm proj">
           <div>
             <video
               class="proj-video"
@@ -119,7 +142,7 @@
           </div>
         </div>
 
-        <div class="col proj">
+        <div class="col-sm proj">
           <div>
             <video
               class="proj-video"
@@ -137,12 +160,12 @@
 
       <div class="row linea-proj">
         <div
-          class="col img-proj-vert"
+          class="col-sm img-proj"
           style="background-image: url('assets/images/bum/bum7.png')"
         ></div>
 
         <div
-          class="col img-proj"
+          class="col-sm img-proj"
           style="background-image: url('assets/images/bum/bum8.png')"
         ></div>
       </div>

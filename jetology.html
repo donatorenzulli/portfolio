@@ -12,8 +12,29 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./project.css" />
+    <link
+    rel="stylesheet"
+    media="screen and (min-width: 600px)"
+    href="./style.css"
+  />
+
+  <link
+    rel="stylesheet"
+    media="screen and (max-width: 600px)"
+    href="./style-mobile.css"
+  />
+
+  <link
+    rel="stylesheet"
+    media="screen and (min-width: 600px)"
+    href="./project.css"
+  />
+
+  <link
+    rel="stylesheet"
+    media="screen and (max-width: 600px)"
+    href="./project-mobile.css"
+  />
 
     <title>Donato Renzulli | Jetology</title>
   </head>
@@ -22,17 +43,21 @@
 
     <div class="container-fluid header-sm">
       <div class="row nome">
-        <div class="col left">work</div>
+        <div class="col-3 left">
+          <a class="linkheader" href="index.html">work</a>
+        </div>
         <div class="col center">
           <a class="linkheader" href="index.html">Donato Renzulli </a>
         </div>
-        <div class="col right">about</div>
+        <div class="col-3 right">
+          <a class="linkheader" href="about.html">about</a>
+        </div>
       </div>
     </div>
 
     <div class="container-fluid proj-scheda">
       <div class="row">
-        <div class="col-7">
+        <div class="col-sm-7">
           <h1>Jetology</h1>
           <p>
             In 2022 private jets have become a relevant topic in the fight
@@ -49,7 +74,7 @@
           </p>
         </div>
 
-        <div class="col credit">
+        <div class="col-sm credit">
           <p>
             Information design <br />
             2023
@@ -76,7 +101,8 @@
     <div class="showreel-proj">
       <video
         src="assets/images/jetology/j3.mp4"
-        class="video-proj-scheda"
+        class="video-proj-scheda-full"
+        id="videoJet"
         autoplay
         playsinline
         loop
@@ -86,11 +112,11 @@
 
     <div class="container-fluid gallery-proj">
       <div class="row linea-proj">
-        <div class="col proj">
+        <div class="col-sm proj">
           <div>
             <video
-              class="proj-video"
-              id="video1"
+              class="proj-video proj-video-oriz "
+            
               playsinline
               autoplay
               muted
@@ -104,11 +130,11 @@
           </div>
         </div>
 
-        <div class="col proj">
+        <div class="col-sm proj">
           <div>
             <video
-              class="proj-video"
-              id="video1"
+              class="proj-video proj-video-oriz"
+            
               playsinline
               autoplay
               muted
@@ -125,17 +151,17 @@
 
       <div class="row linea-proj">
         <div
-          class="col img-proj-vert"
+          class="col-sm img-proj-vert"
           style="background-image: url('assets/images/jetology/jet2.jpeg')"
         ></div>
 
            <div
-          class="col img-proj-vert"
-          style="background-image: url('assets/images/jetology/jet2.jpeg')"
+          class="col-sm img-proj"
+          style="background-image: url('assets/images/jetology/jet3.jpg')"
         ></div>
 
         <div
-          class="col img-proj"
+          class="col-sm img-proj"
           style="background-image: url('assets/images/jetology/jet1.jpeg')"
         ></div>
 
@@ -147,10 +173,11 @@
       <div class="row linea-proj">
        
 
-        <div class="col proj">
+        <div class="col-sm proj">
           <div>
             <video
-             class="video-proj-scheda"
+              class="proj-video"
+              id="videoJet"
               playsinline
               autoplay
               muted

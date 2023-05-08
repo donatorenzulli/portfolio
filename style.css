@@ -19,24 +19,29 @@
   z-index: 2;
   top: 0;
   height: 20vh;
-  font-size: 2.2vw;
+  font-size: 2.2rem;
   background-color: #ff0c0f;
-  color: white;
+  color: #ffffff;
 }
 
 .nome {
   position: absolute;
-  width: 100%;
   bottom: 0;
+  width: 99vw;
+  font-size: 2rem;
 }
 
 .info {
-  font-size: 1vw;
+  font-size: 1.2rem;
   line-height: 100%;
 }
 
 .center {
   text-align: center;
+}
+
+.contatti {
+  text-align: right;
 }
 
 .right {
@@ -116,7 +121,7 @@
   align-self: flex-end;
 }
 
-.proj-video {
+.hp-proj-video {
   border-radius: 0px;
   position: absolute;
   top: 0;

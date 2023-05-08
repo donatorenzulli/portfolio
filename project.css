@@ -1,19 +1,32 @@
 .header-sm {
   font-family: suisse-intl;
   position: fixed;
-  z-index: 2;
+  z-index: 20;
   display: flex;
   align-items: flex-end;
   top: 0vh;
   height: 5vh;
   font-size: 1.7vw;
   background-color: #ffffff;
-  color: #0000ff;
+  color: #000000;
+}
+
+.header-sm a:hover {
+  color: #000000;
 }
 
 /* classe creata per centrare il video al centro */
 .proj {
+  border-radius: 0px;
+  padding: 0.8vw;
+  margin: 0;
   display: flex;
+  column-gap: 2vw;
+  position: relative;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   justify-content: center;
 }
 
@@ -23,7 +36,7 @@
   top: 5vh;
   padding-top: 0.8vh;
   height: 20.2vh;
-  background-color: #0000ff;
+  background-color: #ff0c0f;
   z-index: 2;
   overflow-y: scroll;
   line-height: 100%;
@@ -42,6 +55,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .gallery-proj {
@@ -66,6 +80,22 @@
   border-radius: 0px;
   background-color: black;
   height: 33vw;
+}
+
+/* Css video, classe chiamata  */
+
+.proj-video {
+  border-radius: 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+  /* Controllare questo */
+  /* height: 33vw; */
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .vimeo-proj {
@@ -106,7 +136,8 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 2vh;
-  width: 90%;
+  width: 70vw;
+  object-fit: contain;
   overflow-x: hidden;
 }
 
@@ -124,10 +155,23 @@
   overflow-x: hidden;
 }
 
+/* Video con sfondo nero */
+
 #videoMq {
   position: relative;
   display: flex;
   justify-content: center;
+  justify-items: center;
+  align-items: center;
+  height: 100%;
+}
+
+#videoJet {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
   height: 100%;
 }
 
@@ -136,13 +180,20 @@
   position: fixed;
   top: 5vh;
   padding-top: 2vh;
-  background-color: #ffffff;
   z-index: 2;
 }
 
 .about-scheda-p {
-  font-size: 1.4vw;
+  font-size: 1.6rem;
   line-height: 100%;
+}
+
+.about-scheda a {
+  color: #000000;
+}
+
+.about-scheda a:hover {
+  color: #ff0000;
 }
 
 .about-photo {
@@ -156,7 +207,7 @@ a {
 }
 
 .linkheader {
-  color: #0000ff;
+  color: #ff0c0f;
 }
 
 a:link {
@@ -180,20 +231,19 @@ a:active {
   font-size: 1vw;
   position: fixed;
   top: 50%;
-  color: #0000ff;
+  color: #ff0c0f;
 }
 
 .arrows.right {
   text-align: right;
 }
 
-.arrows.a {
+.arrows a {
   color: #ffffff;
 }
 
-.arrows.a:visited {
-  background-color: #0000ff;
-  text-decoration: none;
+.arrows a:hover {
+  color: #ff0000;
 }
 
 /* Specific for sometimes it happens */
