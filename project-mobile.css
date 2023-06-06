@@ -217,7 +217,7 @@
 }
 
 .about-scheda-p {
-  font-size: 1.4vw;
+  font-size: 1.6rem;
   line-height: 100%;
 }
 
@@ -271,4 +271,8 @@ a:active {
 /* Specific for sometimes it happens */
 #canvasometimes {
   overflow: hidden;
+}
+
+.about-scheda a {
+  color: #000000;
 }
