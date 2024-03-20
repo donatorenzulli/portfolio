@@ -214,6 +214,7 @@
   padding-top: 2vh;
   background-color: #ffffff;
   z-index: 2;
+  height: auto;
 }
 
 .about-scheda-p {
