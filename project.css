@@ -5,7 +5,7 @@
   display: flex;
   align-items: flex-end;
   top: 0vh;
-  height: 5vh;
+  height: 5.5vh;
   font-size: 1.7vw;
   background-color: #ffffff;
   color: #000000;
@@ -207,9 +207,7 @@ a {
   color: #ffffff;
 }
 
-.linkheader {
-  color: #ff0c0f;
-}
+
 
 a:link {
   text-decoration: none;
