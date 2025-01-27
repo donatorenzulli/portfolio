@@ -6,8 +6,7 @@
   align-items: flex-end;
   top: 0vh;
   height: 5vh;
-  background-color: #ffffff;
-  color: #ff0c0f;
+  background-color: #ff0c0f;
   font-size: 1rem;
   margin-right: 0;
   width: 100vw;
@@ -15,7 +14,7 @@
 }
 
 .header-sm a {
-  color: #ff0c0f;
+  color: #ffffff;
 }
 
 /* classe creata per centrare il video al centro */
@@ -278,4 +277,13 @@ a:active {
 
 .about-scheda a {
   color: #000000;
+}
+
+.nome-ab {
+  position: absolute;
+  height: auto;
+  bottom: 0;
+  width: 100%;
+
+  font-size: 1.2rem;
 }

@@ -35,7 +35,7 @@
 .nome-ab {
   position: absolute;
   bottom: 0;
-  width: 100vw;
+  width: 100%;
   background-color: #ff0c0f;
   font-size: 2rem;
 }
