@@ -147,6 +147,10 @@ a {
 }
 
 .linkheader {
+  color: #000000;
+}
+
+.linkheader_about {
   color: #ffffff;
 }
 
