@@ -49,7 +49,7 @@
 
 .showreel-proj {
   position: relative;
-  padding: 0;
+  padding-top: 5vh;
   height: 75vh;
   width: 100vw;
   background-color: black;
@@ -62,7 +62,6 @@
 .gallery-proj {
   position: relative;
   padding-top: 5vh;
-  margin-bottom: 5vh;
   width: 100%;
   padding-bottom: 0.8vw;
   background-color: black;
@@ -153,6 +152,7 @@
 .video-proj-scheda-full {
   position: relative;
   height: max-content;
+  padding-top: 5vh;
   width: 100vw;
   overflow-x: hidden;
 }
