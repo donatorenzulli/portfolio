@@ -151,7 +151,7 @@
 
 .video-proj-scheda-full {
   position: relative;
-  height: max-content;
+  height: auto;
   padding-top: 5vh;
   width: 100vw;
   overflow-x: hidden;
