@@ -142,6 +142,17 @@
   overflow-x: hidden;
 }
 
+.img-proj-scheda-full {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vh;
+  width: 100vw;
+  height: auto;
+  object-fit: contain;
+  overflow-x: hidden;
+}
+
 .video-proj-scheda {
   position: relative;
   width: 50vw;

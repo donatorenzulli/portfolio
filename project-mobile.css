@@ -158,6 +158,16 @@
   overflow-x: hidden;
 }
 
+.img-proj-scheda-full {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vh;
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+}
+
 .video-proj-scheda {
   position: relative;
   width: 80vw;
