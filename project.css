@@ -51,7 +51,7 @@
   position: relative;
   padding-top: 5vh;
   height: 75vh;
-  width: 100vw;
+  width: auto;
   background-color: black;
   display: flex;
   align-items: center;
