@@ -1,10 +1,10 @@
 let sizeTarget;
 let opacityLine = 80;
-let speed = 0.01;
+let speed = 0.001;
 let width = 3000;
 let height = 1000;
 let inc = 1;
-let strokeline = 10;
+let strokeline = 5;
 let variation = 0.0009;
 let variation2 = 0.0009;
 
