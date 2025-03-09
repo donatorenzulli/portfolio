@@ -51,7 +51,7 @@
 
 .right {
   text-align: right;
-  margin-right: 0;
+  /* padding-right: 0; */
 }
 
 .left {
