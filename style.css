@@ -150,8 +150,18 @@ a {
   color: #000000;
 }
 
+.linkheader:hover {
+  color: #ffffff;
+}
+
+
+
 .linkheader_about {
   color: #ffffff;
+}
+
+.linkheader_about:hover {
+  color: #000000;
 }
 
 a:link {
@@ -159,10 +169,6 @@ a:link {
 }
 
 a:visited {
-  text-decoration: none;
-}
-
-a:hover {
   text-decoration: none;
 }
 
