@@ -6,6 +6,7 @@
 .body {
   font-family: suisse-intl;
   overflow-y: scroll;
+  background-color: #ff0c0f;
 }
 
 .body::-webkit-scrollbar {
@@ -80,6 +81,8 @@
   width: 100%;
   padding-bottom: 0vw;
   overflow-x: hidden;
+    overflow-y: hidden;
+
 }
 
 .project::-webkit-scrollbar {
@@ -107,6 +110,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+    background-color: #000000;
 
 }
 
