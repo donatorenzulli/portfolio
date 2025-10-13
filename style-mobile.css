@@ -6,6 +6,8 @@
 .body {
   font-family: suisse-intl;
   padding: 0;
+  background-color: #ff0c0f;
+
 }
 
 .body::-webkit-scrollbar {
@@ -121,6 +123,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+      background-color: #000000;
+
 }
 
 .infogen {
