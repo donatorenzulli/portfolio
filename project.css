@@ -216,6 +216,18 @@ body{
   height: 100vh;
 }
 
+
+/* aggiunta propic */
+
+
+.about-propic{
+  border-radius: 3vw;
+  background-image: url("assets/images/dona.jpg");
+  background-size: cover;       /* Adatta l'immagine al div */
+  background-position: center;  /* Centra l'immagine */
+
+}
+
 /* Link */
 
 a {
