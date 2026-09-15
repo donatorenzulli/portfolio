@@ -118,7 +118,7 @@ body{
   background-position-x: center;
   background-position-y: center;
   object-fit: cover;
-  background-size: auto 100%;
+  background-size: cover;
 }
 
 .img-proj-vert {
